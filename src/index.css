@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* ── CSS Variables ── */
+:root {
+  --bg:         #04040f;
+  --bg2:        #080818;
+  --blue:       #2563eb;
+  --blue-lt:    #3b82f6;
+  --cyan:       #06b6d4;
+  --glow:       rgba(37, 99, 235, 0.35);
+  --glass:      rgba(255, 255, 255, 0.03);
+  --glass-b:    rgba(255, 255, 255, 0.07);
+  --text:       #f1f5f9;
+  --text2:      #94a3b8;
+  --text3:      #475569;
+  --font-h:     'Poppins', sans-serif;
+  --font-b:     'Poppins', sans-serif;
+  --radius:     12px;
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ── shadcn tokens ── */
+  --background:          #04040f;
+  --foreground:          #f1f5f9;
+  --card:                #080818;
+  --card-foreground:     #f1f5f9;
+  --popover:             #080818;
+  --popover-foreground:  #f1f5f9;
+  --primary:             #2563eb;
+  --primary-foreground:  #ffffff;
+  --secondary:           #0f172a;
+  --secondary-foreground:#f1f5f9;
+  --muted:               #0f172a;
+  --muted-foreground:    #94a3b8;
+  --accent:              #1e3a5f;
+  --accent-foreground:   #f1f5f9;
+  --destructive:         #ef4444;
+  --border:              rgba(255, 255, 255, 0.08);
+  --input:               rgba(255, 255, 255, 0.05);
+  --ring:                #2563eb;
+  --radius:              0.625rem;
+}
+
+/* ── Base Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: var(--font-b);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-b);
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Typography ── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-h);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--blue); border-radius: 99px; }
+
+/* ── Selection ── */
+::selection {
+  background: rgba(37, 99, 235, 0.3);
+  color: #fff;
+}
+
+/* ── Tailwind base layer ── */
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+  body {
+    @apply bg-[#050816] text-white;
+  }
+  
+}
