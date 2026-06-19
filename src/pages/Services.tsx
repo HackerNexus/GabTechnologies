@@ -4,7 +4,7 @@ import { motion, AnimatePresence ,} from "framer-motion";
 const services = [
   {
     title: "CCTV Installation",
-    image: "/images/gab5.jpeg",
+    image: `${import.meta.env.BASE_URL}images/gab5.jpeg`,
     shortDescription:
       "Professional surveillance solutions for homes, offices, schools, and businesses.",
 
@@ -23,7 +23,7 @@ const services = [
 
   {
     title: "WiFi & Networking",
-    image: "/images/gab12.5.jpeg",
+    image: `${import.meta.env.BASE_URL}images/gab12.5.jpeg`,
     shortDescription:
       "Reliable WiFi coverage, networking, Starlink setup, and internet optimization.",
 
@@ -42,7 +42,7 @@ const services = [
 
   {
     title: "Smart Security Systems",
-    image: "/images/gab65.jpg",
+    image: `${import.meta.env.BASE_URL}images/gab65.jpg`,
     shortDescription:
       "Modern access control, alarms, smart locks, and integrated security solutions.",
 
@@ -61,7 +61,7 @@ const services = [
 
   {
     title: "IT Support",
-    image: "/images/gab68.jpg",
+    image: `${import.meta.env.BASE_URL}images/gab68.jpg`,
     shortDescription:
       "Technical support, troubleshooting, maintenance, and IT consultancy services.",
 

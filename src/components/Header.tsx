@@ -42,7 +42,7 @@ export default function Header() {
   }}
 >
   <img
-    src="/images/GabTech1.png"
+    src={`${import.meta.env.BASE_URL}images/GabTech1.png`}
     alt="Gab Technologies Logo"
     className="h-16 md:h-20 w-auto object-contain transition-opacity duration-300 group-hover:opacity-80 cursor-pointer"
   />
@@ -67,7 +67,7 @@ export default function Header() {
 
     {/* Logo Image */}
     <img
-      src="/images/GabTech1.png"
+    src={`${import.meta.env.BASE_URL}images/GabTech1.png`}
       alt="Gab Technologies Logo"
       className="max-w-[90vw] max-h-[90vh] object-contain"
       onClick={(e) => e.stopPropagation()}

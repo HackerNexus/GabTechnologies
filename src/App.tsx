@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import PrivacyPolicy from "./pages/privacy-policy";
 import Feedback from "./pages/Feedbacks";
@@ -9,7 +9,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
 
       <Routes>
 
@@ -50,7 +50,7 @@ function App() {
       </Routes>
      
         
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

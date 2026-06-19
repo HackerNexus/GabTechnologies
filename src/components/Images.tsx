@@ -14,55 +14,54 @@ const Projects = [
   {
     id: 1,
     images: [
-      "/images/gab31.jpg",
-      "/images/gab30.jpg",
-      "/images/gab32.jpg"
+      `${import.meta.env.BASE_URL}images/gab31.jpg`,
+      `${import.meta.env.BASE_URL}images/gab30.jpg`,
+      `${import.meta.env.BASE_URL}images/gab32.jpg`
     ],
     title: "Installing high-definition CCTV camera",
   },
   {
     id: 2,
-    images: ["/images/gab62.jpg",
-             "/images/gab13.jpeg",
+    images: [`${import.meta.env.BASE_URL}images/gab62.jpg`,
+             `${import.meta.env.BASE_URL}images/gab13.jpeg`,
     ],
     title: "Professional Starlink satellite dish installation on rooftop",
   },
   {
     id: 3,
-    images: ["/images/gab41.jpg",
-      "/images/work3.jpg",
-      "/images/gab39.jpg",
-      "/images/work4.jpg",
-      "/images/gab46.jpg",
-      "/images/gab39.jpg",
+    images: [`${import.meta.env.BASE_URL}images/gab41.jpg`,
+      `${import.meta.env.BASE_URL}images/work3.jpg`,
+      `${import.meta.env.BASE_URL}images/gab39.jpg`,
+      `${import.meta.env.BASE_URL}images/work4.jpg`,
+      `${import.meta.env.BASE_URL}images/gab46.jpg`,
+      `${import.meta.env.BASE_URL}images/gab39.jpg`,
     ],
     title: "Clean server rack cable management",
   },
   {
     id: 4,
-    images: ["/images/gab65.jpg"],
+    images: [`${import.meta.env.BASE_URL}images/gab65.jpg`],
     title: "Integration of smart security system control panel",
   },
   {
     id: 5,
-    images: ["/images/gab66.jpg"],
+    images: [`${import.meta.env.BASE_URL}images/gab66.jpg`],
     title: "Fibre optic splicing",
   },
   {
     id: 6,
-    images: ["/images/gab58.jpg"],
+    images: [`${import.meta.env.BASE_URL}images/gab58.jpg`],
     title: "Enterprise WiFi access point installation",
   },
   {
     id: 7,
-    images: ["/images/gab60.jpg",
-      "/images/gab19.jpg"
-    ],
+    images: [`${import.meta.env.BASE_URL}images/gab60.jpg`,
+      `${import.meta.env.BASE_URL}images/gab19.jpg`],
     title: "Installation & network setup",
   },
   {
     id: 8,
-    images: ["/images/gab51.jpg"],
+    images: [`${import.meta.env.BASE_URL}images/gab51.jpg`],
     title: "providing onsite IT infrastructure support",
   },
 ];

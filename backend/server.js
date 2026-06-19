@@ -3,7 +3,9 @@ import cors from "cors";
 import mysql from "mysql2";
 import dotenv from "dotenv";
 
-dotenv.config();
+dotenv.config({
+  path: "./backend/.env"
+});
 
 const app = express();
 
@@ -14,10 +16,10 @@ app.use(express.json());
 // MYSQL CONNECTION
 // ======================
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "gabtech",
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
 });
 
 db.connect((err) => {
@@ -197,6 +199,8 @@ app.get("/feedback-stats", (req, res) => {
 // ======================
 // SERVER START
 // ======================
-app.listen(5000, () => {
-  console.log("🚀 Server running on port 5000");
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`🚀 Server running on port ${PORT}`);
 });

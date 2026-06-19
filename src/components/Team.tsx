@@ -5,19 +5,19 @@ const teamMembers = [
     id: 1,
     name: "Gabriel Mutuku",
     role: "Chief Executive Officer",
-    image: "/images/CEO3.png",
+    image: `${import.meta.env.BASE_URL}images/CEO3.png`,
   },
   {
     id: 2,
     name: "Januaris Kasesi",
     role: "Technical & Operations Director",
-    image: "/images/CEO4.png",
+    image: `${import.meta.env.BASE_URL}images/CEO4.png`,
   },
   {
     id: 3,
     name: "Emmanuel Muthusi",
     role: "Head of Security Systems & IT Support",
-    image: "/images/CEO6.jpg",
+    image: `${import.meta.env.BASE_URL}images/CEO6.jpg`,
   },
 ];
 

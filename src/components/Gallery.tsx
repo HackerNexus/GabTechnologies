@@ -13,10 +13,10 @@ const projects: Project[] = [
     id: 1,
     category: "cctv",
     images: [
-      "/images/gab37.jpg",
-      "/images/gab16.jpg",
-      "/images/gab17.jpg",
-      "/images/gab19.jpg",
+      `${import.meta.env.BASE_URL}images/gab37.jpg`,
+      `${import.meta.env.BASE_URL}images/gab16.jpg`,
+      `${import.meta.env.BASE_URL}images/gab17.jpg`,
+      `${import.meta.env.BASE_URL}images/gab19.jpg`,
     ],
     title: "CCTV Installation",
   },
@@ -24,8 +24,8 @@ const projects: Project[] = [
     id: 2,
     category: "security",
     images: [
-      "/images/gab35.jpg",
-      "/images/gab36.jpg",
+      `${import.meta.env.BASE_URL}images/gab35.jpg`,
+      `${import.meta.env.BASE_URL}images/gab36.jpg`,
     ],
     title: "Business Surveillance",
   },
@@ -33,7 +33,7 @@ const projects: Project[] = [
     id: 3,
     category: "wifi",
     images: [
-      "/images/gab64.jpg",
+      `${import.meta.env.BASE_URL}images/gab64.jpg`,
     ],
     title: "Starlink Installation",
   },
@@ -41,8 +41,8 @@ const projects: Project[] = [
     id: 4,
     category: "wifi",
     images: [
-      "/images/gab61.jpg",
-      "/images/gab60.png",
+      `${import.meta.env.BASE_URL}images/gab61.jpg`,
+      `${import.meta.env.BASE_URL}images/gab60.png`,
     ],
     title: "Office Networking",
   },
@@ -50,10 +50,10 @@ const projects: Project[] = [
     id: 5,
     category: "security",
     images: [
-      "/images/gab26.jpg",
-      "/images/gab22.jpg",
-      "/images/gab25.jpg",
-      "/images/gab27.jpg",
+      `${import.meta.env.BASE_URL}images/gab26.jpg`,
+      `${import.meta.env.BASE_URL}images/gab22.jpg`,
+      `${import.meta.env.BASE_URL}images/gab25.jpg`,
+      `${import.meta.env.BASE_URL}images/gab27.jpg`,
     ],
     title: "Clear Night Vision",
   },
@@ -61,8 +61,8 @@ const projects: Project[] = [
     id: 6,
     category: "it",
     images: [
-      "/images/gab48.jpg",
-      "/images/gab47.jpg",
+      `${import.meta.env.BASE_URL}images/gab48.jpg`,
+      `${import.meta.env.BASE_URL}images/gab47.jpg`,
     ],
     title: "Computer Repair",
   },
@@ -70,8 +70,8 @@ const projects: Project[] = [
     id: 7,
     category: "it",
     images: [
-      "/images/gab43.jpg",
-      "/images/gab47.jpg",
+      `${import.meta.env.BASE_URL}images/gab43.jpg`,
+      `${import.meta.env.BASE_URL}images/gab47.jpg`,
     ],
     title: "Computer Maintenance & Software Update",
   },
@@ -79,10 +79,10 @@ const projects: Project[] = [
     id: 8,
     category: "it",
     images: [
-      "/images/gab18.jpg",
-      "/images/gab15.jpg",
-      "/images/gab40.jpg",
-      "/images/gab42.jpg",
+      `${import.meta.env.BASE_URL}images/gab18.jpg`,
+      `${import.meta.env.BASE_URL}images/gab15.jpg`,
+      `${import.meta.env.BASE_URL}images/gab40.jpg`,
+      `${import.meta.env.BASE_URL}images/gab42.jpg`,
 
     ],
     title: "System Troubleshooting",
@@ -91,7 +91,7 @@ const projects: Project[] = [
     id: 9,
     category: "cctv",
     images:[ 
-      "/images/gab4.jpeg",
+      `${import.meta.env.BASE_URL}images/gab4.jpeg`,
     ],
     title: "Two-Way Routing"  
   },
@@ -99,7 +99,7 @@ const projects: Project[] = [
     id: 10,
     category: "cctv",
     images:[ 
-      "/images/gab1.jpeg",
+      `${import.meta.env.BASE_URL}images/gab1.jpeg`,
     ],
     title: "Solar CCTV cameras for areas with no electricity"  
   },
@@ -107,7 +107,7 @@ const projects: Project[] = [
     id: 11,
     category: "cctv",
     images:[ 
-      "/images/gab2.jpeg",
+      `${import.meta.env.BASE_URL}images/gab2.jpeg`,
     ],
     title: "wireless (standalone) 2mp outdoor camera"  
   },
@@ -115,12 +115,12 @@ const projects: Project[] = [
     id: 12,
     category: "wifi",
     images:[ 
-      "/images/gab49.jpg",
-      "/images/gab53.jpg",
-      "/images/gab54.jpg",
-      "/images/gab55.jpg",
-      "/images/gab56.jpg",
-      "/images/gab57.jpg",
+      `${import.meta.env.BASE_URL}images/gab49.jpg`,
+      `${import.meta.env.BASE_URL}images/gab53.jpg`,
+      `${import.meta.env.BASE_URL}images/gab54.jpg`,
+      `${import.meta.env.BASE_URL}images/gab55.jpg`,
+      `${import.meta.env.BASE_URL}images/gab56.jpg`,
+      `${import.meta.env.BASE_URL}images/gab57.jpg`,
     ],
     title: "High-end wifi installation"  
   },
@@ -128,8 +128,8 @@ const projects: Project[] = [
     id: 13,
     category: "cctv",
     images:[ 
-      "/images/gab21.jpg",
-      "/images/gab9.jpeg",
+      `${import.meta.env.BASE_URL}images/gab21.jpg`,
+      `${import.meta.env.BASE_URL}images/gab9.jpeg`,
     ],
     title: "After Installtion"  
   },
@@ -137,8 +137,8 @@ const projects: Project[] = [
     id: 14,
     category: "wifi",
     images:[ 
-      "/images/gab10.jpeg",
-      "/images/gab11.jpg",
+      `${import.meta.env.BASE_URL}images/gab10.jpeg`,
+      `${import.meta.env.BASE_URL}images/gab11.jpg`,
     ],
     title: "Starlink App"  
   },
@@ -146,8 +146,8 @@ const projects: Project[] = [
     id: 15,
     category: "wifi",
     images:[ 
-      "/images/gab12.jpeg",
-      "/images/gab59.jpg",
+      `${import.meta.env.BASE_URL}images/gab12.jpeg`,
+      `${import.meta.env.BASE_URL}images/gab59.jpg`,
     ],
     title: "Superfast Internet Speeds"  
   },
@@ -155,7 +155,7 @@ const projects: Project[] = [
     id: 16,
     category: "security",
     images:[ 
-      "/images/gab34.jpg",
+      `${import.meta.env.BASE_URL}images/gab34.jpg`,
     ],
     title: "Site survey"  
   },
